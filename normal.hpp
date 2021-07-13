@@ -133,6 +133,8 @@ class HC{
                 {
                     arr[i]=0;
                     i--;
+                    if(i<0)
+                        break;
                 }
                 else if (arr[i]==0)
                 {
@@ -158,6 +160,8 @@ class HC{
                 {
                     arr[i]=1;
                     i--;
+                    if(i<0)
+                        break;
                 }
             } 
         }
